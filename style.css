@@ -600,13 +600,7 @@ input:focus, textarea:focus {
 
     }
 
-    @media (max-width:769px) {
-      .project-card{
-      margin:auto;
-      max-width: 300px;
-      max-height: 500px;
-      }
       
-    }  
+ 
 
     
