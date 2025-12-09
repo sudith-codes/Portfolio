@@ -111,6 +111,9 @@ body {
   .typed {
     font-size: 2rem;
   }
+  .overlay{
+    padding-top: 180px;
+  }
 }
 
 /* Scroll Down Animation (Optional) */
@@ -148,6 +151,12 @@ body {
 .sec-2 {
   background-color: rgb(22, 22, 22);
   padding: 100px 0px;
+}
+
+.sec-2 .About{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
 }
 
 .about-img {
@@ -260,6 +269,12 @@ h2 {
   margin: 20px 0px;
 }
 
+.Services{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
 .sec-3-card h1 {
   font-size: 1.6rem;
 }
@@ -346,107 +361,6 @@ h2 {
     font-size: 1rem;
   }
 }
-
-
-
-/* project section        ****/
-
-  /* .projects-section {
-    padding: 70px 15px;
-    text-align: center;
-
-  }
-
-  .projects-section h1 {
-    font-size: 60px;
-    margin-bottom: 40px;
-  }
-
-  .project-card {
-    background-color: #000;
-    border: 2px solid #8561c5;
-    border-radius: 30px;
-    padding: 25px 15px;
-    margin-bottom: 30px;
-    box-shadow: 0 0 5px #8561c5;
-    transition: transform 0.3s ease;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .project-card:hover {
-    transform: scale(1.05);
-  }
-
-  .project-img {
-    width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-    border-radius: 20px;
-    margin-bottom: 20px;
-  }
-
-  .project-title {
-    font-weight: 700;
-    font-size: 1.4rem;
-    margin-bottom: 10px;
-  }
-
-  .project-description {
-    font-size: 1rem;
-    line-height: 1.4;
-    margin-bottom: 25px;
-    flex-grow: 1;
-  }
-
-  .btn-view {
-    color: #9370db;
-    border: 2px solid #9370db;
-    border-radius: 30px;
-    font-weight: 600;
-    padding: 8px 30px;
-    font-size: 1.1rem;
-    text-transform: lowercase;
-    transition: all 0.3s ease;
-    align-self: center;
-    width: 120px;
-  }
-
-  .btn-view:hover {
-    background-color: #9370db;
-    color: #fff;
-    text-decoration: none;
-  }
-
-  /* Responsive Tweaks */
-  /* @media (max-width: 768px) {
-    .projects-section h1 {
-      font-size: 2.5rem;
-      margin-bottom: 30px;
-    }
-  }
-
-  @media (max-width: 576px) {
-    .project-img {
-      max-height: 140px;
-    }
-
-    .project-title {
-      font-size: 1.2rem;
-    }
-
-    .project-description {
-      font-size: 0.9rem;
-    }
-
-    .btn-view {
-      font-size: 1rem;
-      width: 100px;
-      padding: 6px 20px;
-    }
-  } */
 
 
 /* Contact Section */
@@ -587,7 +501,7 @@ input:focus, textarea:focus {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 30px;
+      gap: 10px;
     }
   .project-card h3{
   text-align: center;
@@ -686,8 +600,10 @@ input:focus, textarea:focus {
     @media (max-width:769px) {
       .project-card{
       margin:auto;
-      width: 300px;
-      height: 500px;
-
+      max-width: 300px;
+      max-height: 500px;
       }
+      
     }  
+
+    
